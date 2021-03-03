@@ -1,5 +1,5 @@
 import assert from 'assert';
-import AddressUtil from '../server/AddressBookUtil.js';
+import AddressUtil from '../server/AddressBookUtil.mjs';
 
 describe('AddressBookUtil Test', () => {
   const addressBook = [
