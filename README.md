@@ -33,8 +33,8 @@ complements). For example given:
 ### Scope
 - The application will expose a suite of APIS:
     - GET /v1/addressbook?sort=<ASC|DEC> - get list of friends in ASC or DEC order depending on query param
-    - POST /v1/addressbook/unique - check a user's friends against another list & returns the unique friends names
-    - POST /v1/address - add a new contact to your address book
+    - POST /v1/addressbook/unique - check a user's friends against another list & returns the unique friends names. Expected request address book data format: [{"uid": <uid>,"name": "<PersonName", "phone": <PhoneNumber>}, ...]
+    - POST /v1/address - add a new contact to your address book. Expected data request format {"uid": <uid>,"name": "<NewPersonName", "phone": <NewPhoneNumber>}
 - The application will not implement any security or authentication.
 
 ### Descoped - in the interest of time
