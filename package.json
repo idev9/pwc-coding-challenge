@@ -1,0 +1,20 @@
+{
+  "name": "pwc-coding-challenge",
+  "version": "1.0.0",
+  "description": "Address book coding challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd server && node server.js",
+    "test": "mocha --require esm"
+  },
+  "author": "Ron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^8.3.0"
+  }
+}
