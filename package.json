@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Address book coding challenge",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "cd server && node server.js",
     "test": "mocha --require esm"
